@@ -9,11 +9,11 @@ few simple I/O functions.
 
 Here's an example of how to use it:
 
-  // The function to test.  Adds two numbers.
-  function addNums(x,y) {
-    return x+y;
-  }
-  
+    // The function to test.  Adds two numbers.
+    function addNums(x,y) {
+      return x+y;
+    }
+    
   function sample_category() {
     var cat = new TestCategory();
     // Params: function, list of inputs, expected return value
