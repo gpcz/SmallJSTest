@@ -9,7 +9,8 @@ following goals in mind:
 * __Portability__: The framework should be usable in any JavaScript environment
   after rewriting a single printing function.
 * __Size__: Only one file, no dependencies.
-* __Ease of Use__: It doesn't do everything, but it does enough to be helpful.
+* __Ease of Use__: It doesn't do everything more advanced frameworks do, but
+  it's simple to learn and use.
 
 Here's an example of how to use it:
 
