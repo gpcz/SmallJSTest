@@ -6,8 +6,8 @@ Tiny (one file) JavaScript unit testing framework.
 It was originally written for simple unit tests on Google Apps Script with the
 following goals in mind:
 
-* __Portability__: By changing one printing function, the framework should be 
-  usable in any JavaScript environment.
+* __Portability__: The framework should be usable in any JavaScript environment
+  after rewriting a single printing function.
 * __Size__: Only one file, no dependencies.
 * __Ease of Use__: It doesn't do everything, but it does enough to be helpful.
 
@@ -18,6 +18,7 @@ Here's an example of how to use it:
       return x+y;
     }
     
+    // Makes a test category.  Categories are good for organizing similar tests.
     function sample_category() {
       var cat = new TestCategory(); // Creates a new suite of tests.
     
